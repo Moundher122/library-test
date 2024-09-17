@@ -1,0 +1,48 @@
+name: libraryapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.4
+  dio: ^5.7.0
+  dotted_border: ^2.1.0
+  dropdown_button2: ^2.3.9
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_secure_storage: ^9.2.2
+  http: ^1.2.0
+  image_picker: ^1.0.8
+  path_provider: ^2.1.4
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: blasiq
+      fonts:
+        - asset: fonts/BalsamiqSans-Regular.ttf
+    - family: libre
+      fonts:
+        - asset: fonts/LibreBaskerville-Bold.ttf
+
+  assets:
+    - images/image.png
+    - images/background.png
+    - images/2nd.jfif
+    - images/3rd.jfif
+    - images/4th.jpg
+    - images/5th.jfif
+    - images/6.jfif
+    - images/firstbook.jpg
+    - images/Bibliophile-bro.png
